@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lev2_2_css-vertiefung_forms</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <form id="Lev2_2">
+      <fieldset>
+        <legend>Authentication</legend>
+        <label for="email">E-Mail:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          autocomplete="on"
+          pattern=".+@gmail.com"
+          size="30"
+          required
+          placeholder="email"
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          placeholder="password"
+          name="pass"
+          id="pass"
+          maxlength="8"
+          required
+        />
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>

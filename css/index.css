@@ -1,0 +1,19 @@
+fieldset {
+  width: 40vw;
+  height: 10vh;
+  padding-left: 3vw;
+}
+label {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+input {
+  margin-bottom: 1.5vh;
+  margin-right: 1vw;
+}
+input[type="submit"],
+[type="reset"] {
+  border: 2px solid gainsboro;
+  background: none;
+  border-radius: 5px;
+}
